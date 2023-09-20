@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixaroxa {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #263666;
+}
+
+ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-left: 70px;
+}
+
+.logo {
+    height: 25px;
+}
+
+#caixa1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    padding-top: 200px;
+}
+
+
+.celular {
+    font-size: 30px;
+}
+
+.eslogam {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px
+}
+
+#text {
+    font-size: 17px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.but {
+    margin-bottom: 20px;
+
+    box-shadow: inset 17px -29px 19px -10px #29bbff;
+    background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+    background-color: #2dabf9;
+    border-radius: 17px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px 19px;
+    text-decoration: none;
+    text-shadow: 3px 3px 18px #263666;
+}
+
+.but:hover {
+    background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+    background-color: #0688fa;
+}
+
+.but:active {
+    position: relative;
+    top: 1px;
+}
+
+.preto {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.verde {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(13, 109, 42);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.es {
+    color: #263666;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+.img {
+    width: 600px;
+    height: 600px;
+    z-index: 50;
+}
+
+
+.circulo {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 1000px);
+}
